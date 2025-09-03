@@ -1,31 +1,31 @@
 #include<iostream>
 using namespace std;
-int main1(){
+int main(){
 	int a = 0;
 	int b = 0;
 	int c = 0;
-	cout << "ÇëÊäÈëĞ¡Öía£¬b£¬cµÄÌåÖØ" << endl;
+	cout << "è¯·è¾“å…¥å°çŒªaï¼Œbï¼Œcçš„ä½“é‡" << endl;
 	cin >> a ;
 	cin >> b;
 	cin >> c;
 	if (a > b) 
 	{
 		if (a > c) {
-			cout << "a×îÖØ" << endl;
+			cout << "aæœ€é‡" << endl;
 		}
 		else {
-			cout << "c×îÖØ" << endl;
+			cout << "cæœ€é‡" << endl;
 		}
 	}
 	else
 	{
 		if (b > c)
 		{
-			cout << "b×îÖØ" << endl;
+			cout << "bæœ€é‡" << endl;
 		}
 		else
 		{
-			cout << "c×îÖØ" << endl;
+			cout << "cæœ€é‡" << endl;
 		}
 	}
 	system("pause");
@@ -33,3 +33,4 @@ int main1(){
 
 
 }
+
