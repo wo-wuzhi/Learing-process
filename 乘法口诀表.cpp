@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main8()
+int main()
 {
 	for (int i = 1; i <= 9; i++)
 	{
@@ -13,4 +13,5 @@ int main8()
 
 	system("pause");
 	return 0;
+
 }
